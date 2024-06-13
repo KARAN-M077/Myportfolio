@@ -4,24 +4,12 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { faCopyright , faLink } from "@fortawesome/free-solid-svg-icons";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
-import { faTwitter } from "@fortawesome/free-brands-svg-icons";
 import { faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
-import { faFacebook } from "@fortawesome/free-brands-svg-icons";
-import { faAtom } from "@fortawesome/free-solid-svg-icons";
-import { faFileLines } from "@fortawesome/free-regular-svg-icons";
-import { faBlog } from "@fortawesome/free-solid-svg-icons";
 import AOS from "aos";
-
-
 import "aos/dist/aos.css";
 import Typewriter from "typewriter-effect";
 import person1 from "./person1.jpeg";
-import event from "./event.jpg";
-import agri from "./agri.jpg";
-import hosp from "./hosp.jpg";
-import todo from "./todo.jpg";
-import pro from "./pro.jpg";
 import html5 from "./html5.png";
 import js from "./js.png";
 import css3 from "./css3.png";
@@ -32,7 +20,6 @@ import footerimg from "./footerimg.png";
 import mongodb from "./mongodb.png";
 import flutter from "./flutter.png";
 import vscode from "./vscode.png";
-import karanResume from "./KaranResume.pdf"
 import karan_Resume from "./Karan_Resume.pdf"
 import project1img from "./project1img.png";
 import appimg from ".//appimg.png";
