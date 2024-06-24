@@ -20,7 +20,6 @@ import footerimg from "./footerimg.png";
 import mongodb from "./mongodb.png";
 import flutter from "./flutter.png";
 import vscode from "./vscode.png";
-import karan_Resume from "./Karan_Resume.pdf"
 import { Link, Element } from 'react-scroll';
 import data from "../component/data/data"
 function ScrollAnimation() {
@@ -110,7 +109,7 @@ return (
           <img src={person1} alt="person1" />
         </div>
         <div className="btt" data-aos="zoom-out">
-        <a href={karan_Resume} download="Karan-Resume" target="_blank" rel="noreferer">  <button className="button2">Download CV</button> </a>
+        <a href="https://drive.google.com/file/d/1A1r8fb_MhnTjRyy8-k66A-7UHDRtaNq0/view" >  <button className="button2">Download CV</button> </a>
         </div>
         <div className="social" data-aos="zoom-in">
           <a href="https://instagram.com/_.karan._m?utm_source=qr&igshid=NGExMmI2YTkyZg%3D%3D">
