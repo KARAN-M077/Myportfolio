@@ -4,6 +4,7 @@ import ecommerceimg from "../ecommerceimg.png";
 import timerimg from "../timerimg.png";
 import todoimg from "../todoimg.png";
 import smarteduimg from "../smarteduimg.png";
+import vmsimg from "../vmsimg.png";
 
 const data = [
     {
@@ -13,10 +14,10 @@ const data = [
         image: project1img,
     },
     {
-        title: "Diseases Identifier APP UI",
-        description: "Plant disease identifier app with Flutter and Dart, allowing users to upload samples and receive accurate results. Leveraging Flutter's UI and Dart's functionality, I ensured a seamless user experience.",
-        link: "https://github.com/KARAN-M077/Plant_diseases_identifier_APP_UI",
-        image: appimg,
+        title: "Vehicle management system",
+        description : "Collaboratively developed a Vehicle Management System using the MERN stack. I designed the sign-in form with UI and validation, and created API endpoints for storing and retrieving data from MongoDB. This project aimed to streamline vehicle tracking and management.",
+        link : "https://github.com/KARAN-M077/VMS-Portal",
+        image :vmsimg,
     },
     {
         title: "Ecommerce",
@@ -24,6 +25,13 @@ const data = [
         link: "https://github.com/KARAN-M077/Ecommerce-ui",
         image: ecommerceimg,
     },
+    {
+        title: "Diseases Identifier APP UI",
+        description: "Plant disease identifier app with Flutter and Dart, allowing users to upload samples and receive accurate results. Leveraging Flutter's UI and Dart's functionality, I ensured a seamless user experience.",
+        link: "https://github.com/KARAN-M077/Plant_diseases_identifier_APP_UI",
+        image: appimg,
+    },
+
     {
         title: "Timer",
         description: "JavaScript-based timer project, showcasing my adeptness in JavaScript programming. Through meticulous coding, I ensured the functionality and efficiency of the timer, demonstrating my commitment to delivering quality solutions. This project underscored my proficiency in JavaScript and my capability to develop practical applications.",
@@ -42,6 +50,7 @@ const data = [
         link: "https://github.com/KARAN-M077/SIH_Project_UI",
         image: smarteduimg,
     },
+
 ];
 
 export default data;
