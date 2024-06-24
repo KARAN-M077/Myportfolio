@@ -21,13 +21,8 @@ import mongodb from "./mongodb.png";
 import flutter from "./flutter.png";
 import vscode from "./vscode.png";
 import karan_Resume from "./Karan_Resume.pdf"
-import project1img from "./project1img.png";
-import appimg from ".//appimg.png";
-import ecommerceimg from "./ecommerceimg.png";
-import smartedu from "./smarteduimg.png";
-import timerimg from "./timerimg.png"
-import todoimg from "./todoimg.png";
 import { Link, Element } from 'react-scroll';
+import data from "../component/data/data"
 function ScrollAnimation() {
  
   {
@@ -201,220 +196,26 @@ return (
         </div>
       </div>
       <Element name="project"></Element>
-      <div className="project-outer"data-aos="zoom-in">
-        <div className="project1">
-          <div className="project-img">
-            <div className="image">
-            <img src={project1img} alt="projectimg"/>
-            </div>
-          </div>
-          <div className="project-name">
-          <h1>Event Regesitration</h1>
-          <a href="https://github.com/KARAN-M077/Event_Management">
-            <FontAwesomeIcon icon={faGithub} />
-          </a>
-          
-          </div>
-          <div className="project-content">
-            <p>
-            Event registration platform using HTML,
-              CSS, Node.js, and MongoDB. Created intuitive forms to
-              collect user details and implemented an admin page for
-              efficient data management
-            </p>
-          </div>
+      <div className="project-outer" data-aos="zoom-in">
+            {data.map((project, index) => (
+                <div className="project1" key={index}>
+                    <div className="project-img">
+                        <div className="image">
+                            <img src={project.image} alt={`${project.title} image`} />
+                        </div>
+                    </div>
+                    <div className="project-name">
+                        <h1>{project.title}</h1>
+                        <a href={project.link}>
+                            <i className="fa fa-github"><FontAwesomeIcon icon={faGithub} /></i>
+                        </a>
+                    </div>
+                    <div className="project-content">
+                        <p>{project.description}</p>
+                    </div>
+                </div>
+            ))}
         </div>
-        <div className="project1">
-          <div className="project-img">
-            <div className="image">
-            <img src={appimg} alt="projectimg"/>
-            </div>
-          </div>
-          <div className="project-name">
-          <h1>Diseases_identifier_APP_UI </h1>
-          <a href="https://github.com/KARAN-M077/Plant_diseases_identifier_APP_UI">
-            <FontAwesomeIcon icon={faGithub} />
-          </a>
-          </div>
-          <div className="project-content">
-          <p>
-              Plant disease identifier app with Flutter and
-              Dart, allowing users to upload samples and receive
-              accurate results. Leveraging Flutter's UI and Dart's
-              functionality, I ensured a seamless user experience.
-              </p>
-          </div>
-        </div>
-        <div className="project1">
-          <div className="project-img">
-            <div className="image">
-            <img src={ecommerceimg} alt="projectimg"/>
-            </div>
-          </div>
-          <div className="project-name">
-          <h1>Ecommerce</h1>
-          <div className="project-link">
-          <a  href="https://github.com/KARAN-M077/Ecommerce-ui">
-            <FontAwesomeIcon icon={faGithub} />
-          </a>
-         
-          <a href="https://karancseecommerce.netlify.app"><FontAwesomeIcon icon={faLink} /></a>
-          </div>
-          </div>
-          <div className="project-content">
-            <p>
-            Ecommerce platform using Reactjs,
-              CSS, Node.js, and MongoDB. UI has been Uploaded feel free to use.Working on the backend.Once Comleted will be updated
-            </p>
-          </div>
-        </div>
-        <div className="project1">
-          <div className="project-img">
-            <div className="image">
-            <img src={timerimg} alt="projectimg"/>
-            </div>
-          </div>
-          <div className="project-name">
-          <h1>Timer</h1>
-          <a href="https://github.com/KARAN-M077/">
-            <FontAwesomeIcon icon={faGithub} />
-          </a>
-          </div>
-          <div className="project-content">
-            
-          JavaScript-based timer project, showcasing my adeptness in JavaScript programming. Through meticulous coding, I ensured the functionality and efficiency of the timer, demonstrating my commitment to delivering quality solutions. This project underscored my proficiency in JavaScript and my capability to develop practical applications.
-          </div>
-        </div>
-        <div className="project1">
-          <div className="project-img">
-            <div className="image">
-            <img src={todoimg} alt="projectimg"/>
-            </div>
-          </div>
-          <div className="project-name">
-          <h1>To-DO list (UI)</h1>
-              
-          <a href="https://github.com/KARAN-M077/Google_Hackathon_TO-DOproject_UI">
-            <FontAwesomeIcon icon={faGithub} />
-          </a>
-          </div>
-          <div className="project-content">
-          <p style={{fontWeight:900}}>Group Project</p>
-          <p>
-              In our group project, I led the development of key features including the settings page, login, and sign-up functionality. My responsibilities involved designing intuitive user interfaces and implementing secure authentication processes. These contributions played a crucial role in enhancing the overall usability and functionality of the application. Through collaborative efforts, we delivered a polished product to our users.
-              </p>
-          </div>
-        </div>
-        <div className="project1">
-          <div className="project-img">
-            <div className="image">
-            <img src={smartedu} alt="projectimg"/>
-            </div>
-          </div>
-          <div className="project-name">
-          <h1>Smart Education</h1>
-              
-          <a href="https://github.com/KARAN-M077/SIH_Project_UI">
-            <FontAwesomeIcon icon={faGithub} />
-          </a>
-          </div>
-          <div className="project-content">
-          <p style={{fontWeight:900}}>Group Project</p>
-          <p>
-              My primary focus was on frontend development. I took the lead in designing and implementing critical components such as the admin page and all frontend forms, including login and sign-up functionalities.
-              </p>
-          </div>
-        </div>
-       
-        
-      </div>
-      
-      {/* <div className="project-all" data-aos="fade-right">
-      
-        <div className="project-out" >
-       
-          <div className="project1">
-            <img className="pro-img" src={event} alt="person1" />
-            <a href="https://github.com/KARAN-M077/Event_Management">
-              <div className="pro1-details">
-              <h1>Event Regesitration</h1>
-              <p>
-              Event registration platform using HTML,
-              CSS, Node.js, and MongoDB. Created intuitive forms to
-              collect user details and implemented an admin page for
-              efficient data management
-              </p>
-            </div></a>
-          </div>
-        </div>
-        <div className="project2-out">
-          <div className="project2">
-            <img className="pro-img" src={agri} alt="person1" />
-           <a href="https://github.com/KARAN-M077/Plant_diseases_identifier_APP_UI"> <div className="pro2-details">
-              <h1>Plant_diseases_identifier_APP_UI </h1>
-              <p>
-              Plant disease identifier app with Flutter and
-              Dart, allowing users to upload samples and receive
-              accurate results. Leveraging Flutter's UI and Dart's
-              functionality, I ensured a seamless user experience.
-
-              </p>
-            </div></a>
-          </div>
-        </div>
-      </div>
-      <div className="achive-out" data-aos="fade-right">
-        <div className="achive-in">
-          <h1>Group Project</h1>
-          <hr></hr>
-          <br></br>
-          <br></br>
-          <br></br>
-        </div>
-      </div>
-
-      <div className="project-all" data-aos="fade-right">
-        <div className="project-out" data-aos="fade-right">
-          <div className="project1">
-            <img className="pro-img" src={hosp} alt="person1" />
-           <a href="https://github.com/KARAN-M077/UI_Hospitalmanagementsystem"> <div className="pro-details">
-              <h1>Hospital Management</h1>
-              <p>
-              My primary focus was on frontend development. I took the lead in designing and implementing critical components such as the admin page and all frontend forms, including login and sign-up functionalities.
-              </p>
-            </div></a>
-          </div>
-        </div>
-        <div className="project-out" data-aos="fade-right">
-          <div className="project1">
-            <img className="pro-img" src={pro} alt="person1" />
-            <a href="https://github.com/KARAN-M077/SIH_Project_UI"><div className="pro-details">
-              <h1>Smart Education</h1>
-              <p>
-              My primary focus was on frontend development. I took the lead in designing and implementing critical components such as the admin page and all frontend forms, including login and sign-up functionalities.
-              </p>
-            </div></a>
-          </div>
-        </div>
-        <div className="project-out" data-aos="fade-right">
-          <div className="project1">
-            <img className="pro-img" src={pro} alt="person1" />
-           <a href="https://github.com/KARAN-M077/Google_Hackathon_TO-DOproject_UI">
-             <div className="pro-details">
-              <h1>To-DO list (UI)</h1>
-              <p>
-              In our group project, I led the development of key features including the settings page, login, and sign-up functionality. My responsibilities involved designing intuitive user interfaces and implementing secure authentication processes. These contributions played a crucial role in enhancing the overall usability and functionality of the application. Through collaborative efforts, we delivered a polished product to our users.
-              </p>
-            </div>
-            </a>
-          </div>
-        </div>
-      </div>     
-      <div className="footer-hr">
-        <div className="inner-hr">
-        <hr/>
-        </div>
-      </div> */}
       <div className="formouter">
       <Element name="contact"></Element>
       <div className="thankyou">

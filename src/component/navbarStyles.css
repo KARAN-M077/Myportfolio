@@ -434,7 +434,7 @@ span{
     height: fit-content;
     flex-direction: column;
     margin: 20px;
-    border-radius: 10px;
+    border-radius: 5px;
     padding: 20px;
     transition: 0.3s ease-in-out;
     overflow: scroll;
@@ -462,7 +462,7 @@ span{
 }
 .project1:hover{
     transform: scale(1.1);
-    background: rgb(255, 239, 211);
+    background: #ddd;
 }
 
 
