@@ -13,7 +13,7 @@ import person1 from "../component/assests/person1.jpeg";
 import html5 from "../component/assests/html5.png";
 import js from "../component/assests/js.png";
 import css3 from "../component/assests/css3.png";
-import react from "..";
+import react from "../..";
 import nodejs from "./nodejs.png";
 import developer from "./developer.png";
 import footerimg from "./footerimg.png";
@@ -21,7 +21,7 @@ import mongodb from "./mongodb.png";
 import flutter from "./flutter.png";
 import vscode from "./vscode.png";
 import { Link, Element } from 'react-scroll';
-import data from "../component/data/data"
+import data from "../data/data"
 function ScrollAnimation() {
  
   {

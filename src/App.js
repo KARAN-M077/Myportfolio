@@ -1,5 +1,5 @@
 import { Component } from "react";
-import ScrollAnimation from "./component/navbar";
+import ScrollAnimation from "../src/component/portfolio/navbar";
 
 class App extends Component {
   render() {
