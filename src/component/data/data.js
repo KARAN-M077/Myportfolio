@@ -1,10 +1,10 @@
-import project1img from "../project1img.png"
-import appimg from "../appimg.png";
-import ecommerceimg from "../ecommerceimg.png";
-import timerimg from "../timerimg.png";
-import todoimg from "../todoimg.png";
-import smarteduimg from "../smarteduimg.png";
-import vmsimg from "../vmsimg.png";
+import project1img from "../assests/project1img.png"
+import appimg from "../assests/appimg.png";
+import ecommerceimg from "../assests/ecommerceimg.png";
+import timerimg from "../assests/timerimg.png";
+import todoimg from "../assests/todoimg.png";
+import smarteduimg from "../assests/smarteduimg.png";
+import vmsimg from "../assests/vmsimg.png";
 
 const data = [
     {
