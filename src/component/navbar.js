@@ -9,11 +9,11 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Typewriter from "typewriter-effect";
-import person1 from "./person1.jpeg";
-import html5 from "./html5.png";
-import js from "./js.png";
-import css3 from "./css3.png";
-import react from "./react.png";
+import person1 from "../component/assests/person1.jpeg";
+import html5 from "../component/assests/html5.png";
+import js from "../component/assests/js.png";
+import css3 from "../component/assests/css3.png";
+import react from "..";
 import nodejs from "./nodejs.png";
 import developer from "./developer.png";
 import footerimg from "./footerimg.png";
@@ -109,7 +109,7 @@ return (
           <img src={person1} alt="person1" />
         </div>
         <div className="btt" data-aos="zoom-out">
-        <a href="https://drive.google.com/file/d/1Pcg_MEaYv_vBZrxLZxq7WJUC3-UTaXkX/view" >  <button className="button2">Download CV</button> </a>
+        <a href="https://drive.google.com/file/d/1Oz1tS0aBKaOd4JDkU0b9rV3C1ghKD6Bu/view" >  <button className="button2">Download CV</button> </a>
         </div>
         <div className="social" data-aos="zoom-in">
           <a href="https://instagram.com/_.karan._m?utm_source=qr&igshid=NGExMmI2YTkyZg%3D%3D">
