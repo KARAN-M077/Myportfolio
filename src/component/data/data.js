@@ -5,6 +5,8 @@ import timerimg from "../assests/timerimg.png";
 import todoimg from "../assests/todoimg.png";
 import smarteduimg from "../assests/smarteduimg.png";
 import vmsimg from "../assests/vmsimg.png";
+import stockimg from "../assests/stockimg.png"
+import jassmediaimg from "../assests/jassmediaimg.png"
 
 const data = [
     {
@@ -26,16 +28,27 @@ const data = [
         image: ecommerceimg,
     },
     {
+        title: "Freelance Project",
+        description: "For a freelance project, a client approached us through LinkedIn and provided the UI design for a company landing page. Our task was to develop the UI and implement a feedback form using Nodemailer. My contributions included developing half of the UI and creating the feedback form with Nodemailer. The project resulted in a polished landing page that effectively met the client's needs and facilitated user feedback.",
+        link: "https://github.com/KARAN-M077/jassmedia_freelance",
+        image: jassmediaimg,
+    },
+    {
         title: "Diseases Identifier APP UI",
         description: "Plant disease identifier app with Flutter and Dart, allowing users to upload samples and receive accurate results. Leveraging Flutter's UI and Dart's functionality, I ensured a seamless user experience.",
         link: "https://github.com/KARAN-M077/Plant_diseases_identifier_APP_UI",
         image: appimg,
     },
-
+    {
+        title: "Stock Managemetn APP ",
+        description: "For a consultancy project, our team of two developed a stock management app for a textile shop, enhancing inventory tracking and operational efficiency. My role focused on design and frontend development using Flutter and Dart, creating a user-friendly and responsive interface. Key features included real-time inventory tracking, search and filtering options and detailed reporting. The app significantly improved inventory accuracy and operational efficiency for the client.",
+        link: "https://github.com/KARAN-M077/Stock_Management",
+        image: stockimg
+    },
     {
         title: "Timer",
         description: "JavaScript-based timer project, showcasing my adeptness in JavaScript programming. Through meticulous coding, I ensured the functionality and efficiency of the timer, demonstrating my commitment to delivering quality solutions. This project underscored my proficiency in JavaScript and my capability to develop practical applications.",
-        link: "https://github.com/KARAN-M077/",
+        link: "https://github.com/KARAN-M077/Mytimer",
         image: timerimg,
     },
     {
