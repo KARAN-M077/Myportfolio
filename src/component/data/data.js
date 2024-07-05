@@ -23,8 +23,8 @@ const data = [
     },
     {
         title: "Ecommerce",
-        description: "Ecommerce platform using Reactjs, CSS, Node.js, and MongoDB. UI has been uploaded, feel free to use. Working on the backend. Once completed, will be updated.",
-        link: "https://github.com/KARAN-M077/Ecommerce-ui",
+        description: "Ecommerce platform using Reactjs, CSS, Node.js, and MongoDB with responsive for mobile view. With cart funtionality where you can add product to the cart along with quantity increment and decrement.",
+        link: "https://github.com/KARAN-M077/ecommerce-MERN_STACK",
         image: ecommerceimg,
     },
     {
