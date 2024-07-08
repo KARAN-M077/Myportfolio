@@ -10,22 +10,23 @@ import jassmediaimg from "../assests/jassmediaimg.png"
 
 const data = [
     {
-        title: "Event Registration",
-        description: "Event registration platform using HTML, CSS, Node.js, and MongoDB. Created intuitive forms to collect user details and implemented an admin page for efficient data management",
-        link: "https://github.com/KARAN-M077/Event_Management",
-        image: project1img,
-    },
-    {
-        title: "Vehicle management system",
-        description : "Collaboratively developed a Vehicle Management System using the MERN stack. I designed the sign-in form with UI and validation, and created API endpoints for storing and retrieving data from MongoDB. This project aimed to streamline vehicle tracking and management.",
-        link : "https://github.com/KARAN-M077/VMS-Portal",
-        image :vmsimg,
-    },
-    {
         title: "Ecommerce",
         description: "Ecommerce platform using Reactjs, CSS, Node.js, and MongoDB with responsive for mobile view. With cart funtionality where you can add product to the cart along with quantity increment and decrement.",
         link: "https://github.com/KARAN-M077/ecommerce-MERN_STACK",
         image: ecommerceimg,
+    },
+
+    {
+        title: "Vehicle management system",
+        description : "Collaboratively developed a Vehicle Management System using the MERN stack. I designed the sign-in form with UI and validation, and created API endpoints for storing and retrieving data from MongoDB. This project aimed to streamline vehicle tracking and management.",
+        link : "https://github.com/KARAN-M077/KEC-VMS",
+        image :vmsimg,
+    },
+    {
+        title: "Event Registration",
+        description: "Event registration platform using HTML, CSS, Node.js, and MongoDB. Created intuitive forms to collect user details and implemented an admin page for efficient data management",
+        link: "https://github.com/KARAN-M077/Event_Management",
+        image: project1img,
     },
     {
         title: "Freelance Project",
