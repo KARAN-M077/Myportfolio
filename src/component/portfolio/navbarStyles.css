@@ -799,7 +799,7 @@ background: #ddd;
 link{
     cursor: pointer;
 }
-@keyframes slideRight {
+/* @keyframes slideRight {
 
     0% {
       transform: translateY(0);
@@ -811,7 +811,7 @@ link{
     100% {
       transform: translateY(0);
     }
-  }
+  } */
 @media screen and (max-width: 280px) 
 {
     .project1
@@ -871,9 +871,8 @@ link{
       }
     .person1{
         position: relative;
-        width: 90%;
-        height: 90%;
-        margin-left: 1%;
+        width: 100%;
+        height: 100%;
 
     }
     .aboutme-in{
@@ -1042,9 +1041,8 @@ link{
       }
     .person1{
         position: relative;
-        width: 90%;
-        height: 90%;
-        margin-left: 1%;
+        width: 100%;
+        height: 100%;
 
     }
     .aboutme-in{
@@ -1216,9 +1214,8 @@ link{
       }
     .person1{
         position: relative;
-        width: 90%;
-        height: 90%;
-        margin-left: 1%;
+        width: 100%;
+        height: 100;
 
     }
     .aboutme-in{
@@ -1395,9 +1392,8 @@ link{
       }
     .person1{
         position: relative;
-        width: 90%;
-        height: 90%;
-        margin-left: 1%;
+        width: 100%;
+        height: 100%;
 
     }
     .aboutme-in{
@@ -1569,9 +1565,8 @@ link{
       }
     .person1{
         position: relative;
-        width: 90%;
-        height: 90%;
-        margin-left: 1%;
+        width: 100%;
+        height: 100%;
 
     }
     .aboutme-in{
@@ -1736,9 +1731,8 @@ link{
       }
     .person1{
         position: relative;
-        width: 90%;
-        height: 90%;
-        margin-left: 1%;
+        width: 100%;
+        height: 100%;
 
     }
     .aboutme-in{
@@ -1903,9 +1897,8 @@ link{
       }
     .person1{
         position: relative;
-        width: 80%;
-        height: 80%;
-        margin-left: -4em;
+        width: 100%;
+        height: 100%;
 
     }
     .aboutme-in{

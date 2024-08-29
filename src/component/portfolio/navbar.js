@@ -15,13 +15,13 @@ import js from "../assests/js.png";
 import css3 from "../assests/css3.png";
 import react from "../assests/react.png";
 import nodejs from "../assests/nodejs.png";
-import developer from "../assests/developer.png";
 import footerimg from "../assests/footerimg.png";
 import mongodb from "../assests/mongodb.png";
 import flutter from "../assests/flutter.png";
 import vscode from "../assests/flutter.png";
 import { Link, Element } from 'react-scroll';
 import data from "../data/data"
+import Animation from "../AnimatedSVG/Animation"
 function ScrollAnimation() {
  
   {
@@ -134,8 +134,8 @@ return (
         </div>
       </div>
       <div className="content">
-        <div div className="person1" data-aos="fade-right">
-          <img src={developer} alt="developer.png"></img>
+      <div className="person1" data-aos="fade-right">
+        <div className="animatedsvg"><Animation/></div>
         </div>
         
       <div className="aboutme-in" data-aos="fade-left">
